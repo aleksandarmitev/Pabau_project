@@ -1,0 +1,35 @@
+
+.container{
+    display: grid;
+    grid-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 300px;
+};
+.MissionList{
+    border: 15px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin: 50px;
+}
+.raketi{
+    /* width: 300px;
+    height: 300px; */
+    justify-content: center;
+}
+.row{
+    border-radius: 15px 50px;
+    box-shadow: 10px 10px 15px grey;
+    background-color: white;
+    justify-content: center;
+    width: 600px;
+    padding: 100px;
+}
+.col-sm-6{
+    display: grid;
+    grid-gap: 210px;
+    padding: 20px; 
+    
+}
